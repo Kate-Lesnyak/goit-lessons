@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заняття 4. Основи CSS</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#">
+            <img src="./assets/images/logo.svg" alt="Житловий комплекс HouseVOP відносно файлу">
+        </a>
+        <nav>
+            <ul class="menu-list">
+                <li><a class="menu-link" href="#">Про комплекс</a></li>
+                <li><a class="menu-link" href="#">Район</a></li>
+                <li><a class="menu-link" href="#">Каталог квартир</a></li>
+                <li><a class="menu-link" href="#">Іпотека</a></li>
+                <li><a class="menu-link" href="#">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1 class="title">Житловий комплекс в історичному центрі</h1>
+            <img src="https://picsum.photos/1200/400" width="1200" height="400" alt="Житловий комплекс в історичному центрі">
+            <address class="contact-info">
+                <span class="contact-link">вул. Садова 10-15</span>
+                <a class="contact-link" href="tel:+380991234567">+38 (099) 123-45-67</a>
+            </address>
+        </section>
+        <section>
+            <h2 class="title">Ціни</h2>
+            <table>
+                <caption>Каталог типів квартир за ціною</caption>
+                <thead>
+                    <tr>
+                        <th>Квартира</th>
+                        <th>Поверховість</th>
+                        <th>Ціна</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Стандарт</td>
+                        <td>1</td>
+                        <td>30000$</td>
+                    </tr>
+                    <tr>
+                        <td>Комфорт</td>
+                        <td>2</td>
+                        <td>40000$</td>
+                    </tr>
+                    <tr>
+                        <td>Люкс</td>
+                        <td>3</td>
+                        <td>50000$</td>
+                    </tr>
+                    <tr>
+                        <td>Супер Люкс</td>
+                        <td>4</td>
+                        <td>60000$</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Разом</td>
+                        <td>5</td>
+                        <td>180000$</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2 class="title">Хочете подивитися?</h2>
+            <p>Житловий комплекс в історичному центрі міста HouseVOP завершив будівництво та здав об’єкт в експлаутацію <time datetime="2021-03-11">11 березня 2021 року</time>.
+                Якщо ви маєте бажання подивитися квартиру, чекаємо на Вас.</p>
+            <video controls width="250" autoplay>
+                <source src="./assets/videos/test_video.webm" type="video/webm">
+                <source src="./assets/videos/test_video.mp4" type="video/mp4">
+                Ваш браузер не підтримує вбудоване відео :(
+            </video>
+        </section>
+        <section>
+            <h2 class="title">Район на мапі</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58878.84997387925!2d-99.01862750013095!3d22.73091278585401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8678b862f7c134b3%3A0xc5792ed4b3d4a2af!2zQ2l1ZGFkIE1hbnRlLCDQotCw0LzQsNGD0LvRltC_0LDRgSwg0JzQtdC60YHQuNC60LA!5e0!3m2!1suk!2s!4v1648064043069!5m2!1suk!2s" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
