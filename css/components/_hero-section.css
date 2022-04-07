@@ -1,0 +1,23 @@
+.hero-section {
+    padding: 200px 0 74px;
+    background-image: url('../../assets/images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-title {
+    max-width: 556px;
+    width: 100%;
+    margin: 0 auto 340px;
+    font-size: 3rem; /* 48px */
+    text-align: center;
+}
+
+.hero-contact-info {
+    text-align: center;
+}
+
+.hero-contact-link {
+    color: var(--text-primary-color);
+}

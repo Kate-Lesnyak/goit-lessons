@@ -1,0 +1,18 @@
+.flat-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+}
+
+.flat-item {
+    flex-basis: calc(100% / 2);
+    padding: 1rem;
+}
+
+.flat-img {
+    
+}
+
+.flat-caption {
+    display: block;
+}
